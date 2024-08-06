@@ -25,10 +25,10 @@
 }
 
 .index-list-header {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 17.42px;
+  margin-bottom: 17.42px;
 }
 
 table {
@@ -36,6 +36,7 @@ table {
   border: none;
   width: 745.375px; /* テーブルの幅を100%に設定 */
   table-layout: fixed; /* テーブルの幅を固定する */
+  font-size: 13px;
 }
 
 
@@ -57,7 +58,6 @@ td:nth-child(3), td:nth-child(4), td:nth-child(5) {
   text-align: center;
 }
 
-/* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width: 768px) {
   table {
     width: 100% !important; /* テーブルの幅を100%に設定 */
@@ -82,4 +82,29 @@ td:nth-child(3), td:nth-child(4), td:nth-child(5) {
     white-space: nowrap;
     text-align: center;
   }
+}
+
+.index-create-header {
+  font-size: 19.5px;
+  font-weight: 700;
+  margin-top: 16.185px;
+  margin-bottom: 16.185px;
+}
+
+.new-book-title-box {
+  margin-bottom: 10px;
+}
+
+.new-book-title {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.new-book-body-box {
+  margin-bottom: 10px;
+}
+
+.new-book-body {
+  font-size: 13px;
+  font-weight: 100;
 }
