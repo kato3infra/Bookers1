@@ -43,14 +43,14 @@
 <%= form_with model: @book, url: '/books', method: :post do |f| %>
   <div class="new-book-title-box">
     <div class="new-book-title">
-      <h4>title</h4>
+      <p>title</p>
     </div>
     <%= f.text_field :title %>
   </div>
 
 	<div class="new-book-body-box">
     <div class="new-book-body">
-      <h4>Body</h4>
+      <p>Body</p>
     </div>
     <%= f.text_area :body %>
   </div>

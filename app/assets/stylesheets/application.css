@@ -85,7 +85,7 @@ td:nth-child(3), td:nth-child(4), td:nth-child(5) {
 }
 
 .index-create-header {
-  font-size: 19.5px;
+  font-size: 18px;
   font-weight: 700;
   margin-top: 16.185px;
   margin-bottom: 16.185px;
@@ -97,7 +97,6 @@ td:nth-child(3), td:nth-child(4), td:nth-child(5) {
 
 .new-book-title {
   font-size: 13px;
-  font-weight: 700;
 }
 
 .new-book-body-box {
@@ -108,3 +107,25 @@ td:nth-child(3), td:nth-child(4), td:nth-child(5) {
   font-size: 13px;
   font-weight: 100;
 }
+
+.show-box {
+  margin: 33px;
+  font-family: Arial, sans-serif;
+}
+
+.show-box .show-item {
+  margin-left: 33px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.show-box .show-item span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.show-box .show-actions a {
+  font-size: 13px;
+  color: black;
+}
+
