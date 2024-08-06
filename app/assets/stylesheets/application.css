@@ -13,3 +13,73 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.index-box {
+  margin: 33px;
+}
+
+.index-list-header {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+  width: 745.375px; /* テーブルの幅を100%に設定 */
+  table-layout: fixed; /* テーブルの幅を固定する */
+}
+
+
+th:nth-child(1), td:nth-child(1) {
+  width: 192px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+th:nth-child(2), td:nth-child(2) {
+  width: 400px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+th:nth-child(3), th:nth-child(4), th:nth-child(5),
+td:nth-child(3), td:nth-child(4), td:nth-child(5) {
+  width: 145.38px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* スマートフォンサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width: 768px) {
+  table {
+    width: 100% !important; /* テーブルの幅を100%に設定 */
+    table-layout: fixed; /* テーブルの幅を固定する */
+  }
+  
+  th:nth-child(1), td:nth-child(1) {
+    width: 18%;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  th:nth-child(2), td:nth-child(2) {
+    width: 45%;
+    word-wrap: break-word;
+    white-space: normal;
+    background-color: aquamarine;
+  }
+  
+  th:nth-child(3), th:nth-child(4), th:nth-child(5),
+  td:nth-child(3), td:nth-child(4), td:nth-child(5) {
+    width: 100px;
+    white-space: nowrap;
+    text-align: center;
+  }
+}
